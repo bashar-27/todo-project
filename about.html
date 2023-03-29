@@ -4,40 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/about.css" />
     <script
       src="https://kit.fontawesome.com/1a5eb52ff3.js"
       crossorigin="anonymous"
     ></script>
-    <title>About</title>
-    <script
+    <script >
       src="https://kit.fontawesome.com/4f7fe5e387.js"
       crossorigin="anonymous"
-    ></script>
+   
+  </script>
+    <title>About</title>
+    
   </head>
 
   <body>
     <header>
       <section>
-        <img src="assets/images.png" alt="Logo" />
+        <img src="assets/check-list-clipboard-list-svgrepo-com.svg" height="75px" width="65px">
+
+        <!-- <img src="assets/images.png" alt="Logo" /> -->
       </section>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#form">Forms</a></li>
-          <li><a href="imgs/logo.png">Contact</a></li>
-          <li><a href="https://www.google.com">More Info</a></li>
+          <li><a href="#">About</a></li>
+           <li><a href="#foo">Contact</a></li>
+          
         </ul>
       </nav>
     </header>
     <main>
       <section class="container">
-        <h1>About...</h1>
-      </section>
-
-      <section>
-            <section>
+        <h1>Your Name</h1>
+     
+            <section class="card">
         <img src="assets/profile-user-round-yellow-icon-symbol-free-png-11639594308nr1vrmbcv3.png" height="75px" width="75px" alt="My photo" />
-        <h1>Bashar Nidal</h1>
+       
         <p>
           A software developer with experience in web development and mobile
           applications.
@@ -47,24 +50,20 @@
         <h2>Contact Me</h2>
         <form>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required  placeholder="Full-Name"/><br>
+          <input type="text" id="name" name="name" required /><br>
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required placeholder="ex@domain.etc"/><br><br>
+          <input type="email" id="email" name="email" required/><br>
+          <label for="email">Phone:</label>
+          <input type="tel" id="phone" name="email" required /><br>
           <label for="message">Message:</label>
-          <textarea id="message" name="message" required placeholder="Any text"></textarea><br>
-          <p>What is your gender?</p>
-          <label><input type="radio" name="gender" value="male" required> Male</label>
-          <label><input type="radio" name="gender" value="female" required> Female</label>
-          <p>What are your hobbies?</p>
-          <label><input type="checkbox" name="hobbies" value="Coding"> Coding</label><br>
-          <label><input type="checkbox" name="hobbies" value="Gaming"> Gaming</label><br>
-          <label><input type="checkbox" name="hobbies" value="Other.."> Other..</label><br>
+          <textarea id="message" name="message" required ></textarea><br>
+       
           <br><button type="submit">Submit</button>
         </form>
       </section>
     </main>
 
-    <footer>
+    <footer id="foo">
         <div>
           <h5 id="con">Contact Us</h5>
           <i class="fa-solid fa-phone fa-beat-fade"></i>
