@@ -26,7 +26,7 @@ function validAge(age) {
 function getAnswer(questions) {
   const answers = [];
   for (let i = 0; i < questions.length; i++) {
-    let yesNoAnswer = prompt(`Question ${i}: ${questions[i]} (yse / no)`);
+    let yesNoAnswer = prompt(`Question ${i+1}: ${questions[i]} (yse / no)`);
     if ((yesNoAnswer !== "yes" && yesNoAnswer !== "no") || yesNoAnswer === "") {
       answers.push("Invalid");
     } else {
