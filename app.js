@@ -13,11 +13,12 @@ function Welcome() {
       } else if (gender == "female") {
         alert("Welcome, Ms. " + name);
       } else {
-        alert("Welcome, " + name);
+        alert("Welcome, "+ name);
       }
     }
-  }
-}
+    } 
+   }
+
 
 function validAge(age) {
   return age < 0;
@@ -37,8 +38,8 @@ function getAnswer(questions) {
 
 Welcome();
 const questions = [
-  "Are you married?",
-  "Are you a football fan?",
+  "Are you married? ",
+  "Are you a football fan? ",
   "Are you a programmer?",
 ];
 const answers = getAnswer(questions);
